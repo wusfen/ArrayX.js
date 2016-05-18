@@ -155,6 +155,13 @@
             });
             return rs;
         },
+        map: function (fn) {console.log('map')
+            var rs = [];
+            this.each(function(item) {
+                rs.push(fn(item));
+            });
+            return rs;
+        },
         toArray: function() {
             return this;
         },

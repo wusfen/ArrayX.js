@@ -164,6 +164,7 @@
         }
     };
 
+    aprox.filter = aprox.select;
     aprox.where = aprox.select;
     aprox.each = aprox.forEach;
     aprox.has = aprox.contains;

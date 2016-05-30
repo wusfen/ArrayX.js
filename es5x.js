@@ -1,9 +1,8 @@
 /*!
- * 增强数组
- * 
- * wushufen
- * 2016.04.01
- * 2016.05.12
+ * es5 补丁 与 增强
+ * https://github.com/wusfen/es5x.js
+ * 2016.04.01 c
+ * 2016.05.30 u
  */
 (function() {
     // Object
@@ -29,8 +28,7 @@
         return obj;
     }
 
-    // Array.prototype
-    var apro = Array.prototype;
+    // extend Array.prototype
     var selectOne;
     var aprox = {
         forEach: function(fn, contex) {
@@ -176,6 +174,6 @@
     aprox.each = aprox.forEach;
     aprox.has = aprox.contains;
 
-    orExtend(apro, aprox);
+    orExtend(Array.prototype, aprox);
 
 }());

@@ -153,7 +153,7 @@
             });
             return rs;
         },
-        map: function (fn) {console.log('map')
+        map: function (fn) {
             var rs = [];
             this.each(function(item) {
                 rs.push(fn(item));
@@ -164,7 +164,7 @@
             return this;
         },
         // 不要写 toJSON。 JSON.stringify 会先调用对象的 toJSON
-        json: function() {
+        toJson: function() {
             return JSON.stringify(this);
         }
     };

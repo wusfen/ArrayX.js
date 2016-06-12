@@ -1,7 +1,8 @@
 # es5x.js
 es5 补丁 与 增强
 
-## 补丁（部分较少使用的暂不实现）
+## 补丁
+*部分较少使用的暂不实现*
 * Array.prototype
 	* forEach
 	* filter

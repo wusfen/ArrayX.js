@@ -1,8 +1,8 @@
 /*!
- * es5 补丁 与 增强
- * https://github.com/wusfen/es5x.js
+ * Array 补丁 与 增强
+ * https://github.com/wusfen/ArrayX.js
  * 2016.04.01 c
- * 2016.05.30 u
+ * 2016.12.15 u
  */
 (function() {
     // Object
